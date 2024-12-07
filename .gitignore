@@ -1,0 +1,24 @@
+# Ignore node_modules in the root directory
+node_modules/
+
+# Ignore node_modules in the client and server directories
+client/node_modules/
+server/node_modules/
+
+# Ignore .env files for both client and server
+client/.env
+server/.env
+
+# Ignore logs
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts (optional, adjust for your use case)
+client/.next/
+server/dist/
+
+# Ignore Docker related files (optional, if you don't want them in your repo)
+docker-compose.override.yml
